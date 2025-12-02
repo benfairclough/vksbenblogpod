@@ -15,7 +15,7 @@ spec:
         app: benblog
     spec:
       containers:
-        - image: harbor.home.ads:443/library/benblog:v7
+        - image: harbor.home.ads:443/library/benblog:v8
           name: benblog
           ports:
             - containerPort: 80

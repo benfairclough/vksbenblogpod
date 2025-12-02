@@ -4,7 +4,7 @@ metadata:
   name: benblog
   namespace: benpod
 spec:
-  replicas: 3
+  replicas: 6
   revisionHistoryLimit: 3
   selector:
     matchLabels:
